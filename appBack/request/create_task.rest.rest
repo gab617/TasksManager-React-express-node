@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/tasks 
+Content-type: application/json
+
+{
+    "content": "Esto es una nueva nota"
+}
+
+###
+POST http://localhost:3001/api/tasks 
+Content-type: application/json

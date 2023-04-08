@@ -1,0 +1,68 @@
+body {
+  background-color: #333;
+}
+
+ul{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr)) ;
+}
+
+li {
+  list-style: none;
+  width: 90%;
+}
+
+.Task {
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: azure;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form label {
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+form textarea {
+  width: 70%;
+  height: 100px;
+}
+
+form button{
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  margin-bottom: 4px;
+  width: 30%;
+  height: 30px;
+}
+
+.checkTask {
+  background-color: beige;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Task :nth-child(3) { /* button eliminar */
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(192, 13, 13, 0.72);
+}
+
+.important{
+  background-color: rgba(10, 204, 10, 0.856);
+}
